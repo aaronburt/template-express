@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "./dist/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --no-warnings  --experimental-strip-types .\\src\\main.ts",
+    "dev:setup": "npm install",
+    "prod:compile": "tsc",
+    "prod:run": "node .\\dist\\main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^24.0.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  }
+}
